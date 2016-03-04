@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B3111B813AFBBB1B9404568EEDF0287C2BF5C0B5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B3111B813AFBBB1B9404568EEDF0287C2BF5C0B5" : 0,
+    "EF2C5CA15DE6A7BA351BC13A99E1B47E1C1BBB03" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E2A8A3F7-6165-4144-BB0F-B5A87F8E2002",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B3111B813AFBBB1B9404568EEDF0287C2BF5C0B5" : "libsalamander\/",
+    "EF2C5CA15DE6A7BA351BC13A99E1B47E1C1BBB03" : "libsalamander\/zrtpcpp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "salamander",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "xcode\/salamander.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:chrisballinger\/libsalamander.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B3111B813AFBBB1B9404568EEDF0287C2BF5C0B5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wernerd\/ZRTPCPP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF2C5CA15DE6A7BA351BC13A99E1B47E1C1BBB03"
+    }
+  ]
+}

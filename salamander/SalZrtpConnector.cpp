@@ -216,8 +216,10 @@ typedef AppInterface* (*GET_APP_IF)();
 AppInterface* j_getAxoAppInterface();
 static GET_APP_IF getAppIf = j_getAxoAppInterface;
 #elif defined __APPLE__
-AppInterface* t_getAxoAppInterface();
-static GET_APP_IF getAppIf = t_getAxoAppInterface;
+#warning Disabled AppInterface for now
+static GET_APP_IF getAppIf = NULL;
+//AppInterface* t_getAxoAppInterface();
+//static GET_APP_IF getAppIf = t_getAxoAppInterface;
 #else
 #warning Get application interface call not initialized - ZRTP connection may not work
 static GET_APP_IF getAppIf = NULL;
@@ -279,7 +281,7 @@ void checkRemoteAxoIdKey(const string user, const string deviceId, const string 
 //     hexdump("remote key", remoteIdKey); Log("%s", hexBuffer);
 //     hexdump("zrtp key", pubKey); Log("%s", hexBuffer);
     if (pubKey.compare(remoteIdKey) != 0) {
-        Log("Messaging keys of user %s (%s) do not match", user.c_str(), deviceId.c_str());
+//        Log("Messaging keys of user %s (%s) do not match", user.c_str(), deviceId.c_str());
         return;
     }
     // if verifyState is 1 then both users verfied their SAS and thus set the Salamander conversation

@@ -1,0 +1,19 @@
+PODS:
+  - libsalamander (0.0.1):
+    - SQLCipher/fts
+  - SQLCipher/common (3.3.1)
+  - SQLCipher/fts (3.3.1):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - libsalamander (from `../libsalamander.podspec`)
+
+EXTERNAL SOURCES:
+  libsalamander:
+    :path: "../libsalamander.podspec"
+
+SPEC CHECKSUMS:
+  libsalamander: 87df45d1bca88882c9ae725023249b01e2eeb7cb
+  SQLCipher: d490d2effe735895d2204d25a154b1e722278421
+
+COCOAPODS: 0.39.0
